@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=label\ x\ y
+comment0.target=Point(java.lang.String,\ double,\ double)
+comment1.params=
+comment1.target=double\ getX()
+comment2.params=
+comment2.target=double\ getY()
+comment3.params=
+comment3.target=java.lang.String\ getLabel()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=
+comment5.target=java.lang.String\ toStringTMG()
+comment6.params=o
+comment6.target=boolean\ equals(java.lang.Object)
+comment7.params=other
+comment7.target=double\ squaredDistance(Point)
+comment8.params=o1\ o2
+comment8.target=boolean\ isBetween(Point,\ Point)
+comment8.text=\r\n\ \ \ \ Check\ if\ this\ point\ is\ directly\ in\ between\ the\ two\ given\r\n\ \ \ \ points.\ \ Note\:\ the\ assumption\ is\ that\ they\ are\ colinear.\r\n\r\n\ \ \ \ @param\ o1\ one\ of\ the\ points\r\n\ \ \ \ @param\ o2\ the\ other\ point\r\n\ \ \ \ @return\ whether\ this\ point\ is\ between\ the\ two\ given\ points\r\n
+comment9.params=args
+comment9.target=void\ main(java.lang.String[])
+comment9.text=\r\n\ \ \ \ Read\ in\ a\ list\ of\ points\:\r\n\ \ \ \ label\ x\ y\r\n\ \ \ \ from\ the\ file\ in\ args[0]\ (second\ line\ contains\ number\ of\ points)\r\n\r\n\ \ \ \ The\ compute\ convex\ hull\ using\ brute\ force,\ print\ out\ in\r\n\ \ \ \ readable\ text\ (args[1].equals("text")\ or\ nothing)\ or\ as\ data\r\n\ \ \ \ plottable\ in\ the\ TMG\ data\ Google\ Maps\ viewer\ (args[1].equals("tmg").\r\n
+numComments=10

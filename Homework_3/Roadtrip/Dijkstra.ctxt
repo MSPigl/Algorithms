@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\r\n\ The\ main\ method\ for\ the\ Dijkstra's\ algorithm\ driver\ program,\r\n\ which\ will\ take\ command-line\ parameters\ of\ a\ graph\ to\ read,\r\n\ starting\ and\ ending\ points\ for\ driving\ directions,\ and\ an\r\n\ optional\ filename\ to\ write\ a\ METAL\ ".pth"\ file\ to\ display\r\n\ the\ directions\ in\ HDX.\r\n\r\n\ @param\ args\ command-line\ parameters,\ which\ include<br>\r\n\ args[0]\:\ name\ of\ graph\ file<br>\r\n\ args[1]\:\ starting\ waypoint\ label<br>\r\n\ args[2]\:\ destination\ waypoint\ label<br>\r\n\ args[3]\:\ (optional)\ .pth\ file\ name\ for\ mappable\ route\r\n
+numComments=1

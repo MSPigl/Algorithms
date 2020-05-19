@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=s
+comment0.target=HighwayGraph(java.util.Scanner)
+comment0.text=\r\n\ Construct\ a\ HighwayGraph\ from\ a\ TMG\ format\ file\ that\ comes\ from\r\n\ the\ given\ Scanner\ (likely\ over\ a\ File\ or\ URLConnection,\ but\r\n\ does\ not\ matter\ here)\r\n\r\n\ @param\ s\ Scanner\ from\ which\ the\ TMG\ format\ data\ is\ to\ be\ read\r\n
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment1.text=\r\n\ Construct\ and\ return\ a\ human-readable\ text\ representation\ of\ the\ \r\n\ contents\ of\ the\ graph.\r\n\r\n\ @return\ a\ human-readable\ text\ representation\ of\ the\ \r\n\ contents\ of\ the\ graph\r\n
+comment2.params=label
+comment2.target=HighwayVertex\ getVertexByName(java.lang.String)
+comment2.text=\r\n\ Look\ up\ a\ HighwayVertex\ by\ name/label\r\n\r\n\ @param\ label\ the\ label\ to\ match\r\n\r\n\ @return\ the\ HighwayVertex\ matching\ the\ label,\ or\ null\ if\ not\ found\r\n
+comment3.params=
+comment3.target=void\ markAllUnvisited()
+comment3.text=\r\n\ Mark\ all\ vertices\ as\ unvisited.\r\n
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+comment4.text=\r\n\ A\ main\ method\ for\ testing\ the\ construction\ and\ printing\ of\r\n\ a\ graph\ loaded\ from\ a\ METAL\ .tmg\ file.\r\n\r\n\ @param\ args\ command-line\ parameters,\ with\ the\ name\ of\ the\r\n\ tmg\ file\ to\ load\ specified\ in\ args[0]\r\n
+numComments=5

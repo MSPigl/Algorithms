@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=vNum\ l\ lat\ lng
+comment0.target=HighwayVertex(int,\ java.lang.String,\ double,\ double)
+comment0.text=\r\n\ Construct\ a\ new\ HighwayVertex\ object\r\n\r\n\ @param\ vNum\ the\ index\ of\ this\ vertex\ in\ {@link\ HighwayGraph}\ array\ of\ vertices\r\n\ @param\ l\ the\ vertex\ label\r\n\ @param\ lat\ latitude\ of\ this\ point's\ location\r\n\ @param\ lng\ longitude\ of\ this\ point's\ location\r\n
+numComments=1

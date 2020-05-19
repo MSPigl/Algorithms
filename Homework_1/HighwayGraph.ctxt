@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=s
+comment0.target=HighwayGraph(java.util.Scanner)
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment2.params=index
+comment2.target=int\ degree(int)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

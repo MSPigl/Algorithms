@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=orderSize\ S
+comment0.target=boolean\ fillOrderDynProg(int,\ int[])
+comment0.text=\r\n\ Returns\ true\ if\ it\ is\ possible\ to\ fill\ an\ order\ for\ orderSize\r\n\ chicken\ nuggets\ using\ boxes\ of\ size\ 6,\ 9\ and\ 20.\r\n\ \r\n\ @param\ orderSize\ size\ of\ the\ desired\ order\r\n\ @param\ S\ array\ of\ size\ [0...orderSize]\ used\ to\ store\ \r\n\ \ \ \ \ \ \ \ \ \ solutions\ to\ subproblems,\ for\ dynamic\ programming\r\n\ @return\ true\ if\ it\ is\ possible\ to\ fill\ the\ order,\ false\ otherwise\r\n
+comment1.params=R\ startIndex
+comment1.target=int\ maxPickUpCoins(int[],\ int)
+comment1.text=\r\n\ Top-down\ exhaustive\ search\ version\ of\ the\ coin\ row\ problem.\r\n\ \r\n\ Given\ an\ array\ R\ of\ coin\ values,\ this\ method\ returns\ the\ maximum\ value\ of\ coins\ \r\n\ that\ you\ can\ pick\ up\ if\ you\ are\ limited\ to\ picking\ coins\ in\ R\r\n\ at\ indices\ >\=\ startIndex\ and\ with\ the\ constraint\ that\ you\ can\ not\ pick\ up\ two\ \r\n\ coins\ that\ are\ adjacent\ in\ R.\r\n\ \r\n\ @param\ R\ array\ storing\ the\ values\ of\ the\ coins\ in\ the\ row\r\n\ @param\ startIndex\ only\ coins\ with\ indices\ >\=\ startIndex\ may\ be\ picked\r\n
+comment2.params=R\ startIndex\ S
+comment2.target=int\ maxPickUpCoinsDynProg(int[],\ int,\ int[])
+comment2.text=\r\n\ Top-down\ dynamic\ programming\ version\ of\ the\ coin\ row\ problem.\r\n\ \r\n\ Given\ an\ array\ R\ of\ coin\ values,\ this\ method\ returns\ the\ maximum\ value\ of\ coins\ \r\n\ that\ you\ can\ pick\ up\ if\ you\ are\ limited\ to\ picking\ coins\ in\ R\r\n\ at\ indices\ >\=\ startIndex\ and\ with\ the\ constraint\ that\ you\ can\ not\ pick\ up\ two\ \r\n\ coins\ that\ are\ adjacent\ in\ R.\ Array\ S\ stores\ solutions\ to\ subproblems\ that\r\n\ have\ already\ been\ solved.\r\n\ \r\n\ @param\ R\ array\ storing\ the\ values\ of\ the\ coins\ in\ the\ row\r\n\ @param\ startIndex\ only\ coins\ with\ indices\ >\=\ startIndex\ may\ be\ picked\r\n\ @param\ S\ array\ the\ same\ size\ as\ R\ used\ to\ store\ solutions\ to\ subproblems,\ \r\n\ \ \ \ \ \ \ \ \ \ for\ dynamic\ programming\ \r\n
+comment3.params=
+comment3.target=void\ testFillOrderDynProg()
+comment3.text=\r\n\ TEST\ METHODS\ ************************\r\n
+comment4.params=
+comment4.target=void\ testPickUpCoins()
+comment5.params=
+comment5.target=void\ testPickUpCoinsDynProg()
+numComments=6

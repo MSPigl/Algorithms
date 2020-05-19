@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=lat\ lng
+comment0.target=LatLng(double,\ double)
+comment0.text=\r\n\ Construct\ a\ new\ LatLng\ with\ the\ given\ coordinates.\r\n\r\n\ @param\ lat\ the\ latitude\r\n\ @param\ lng\ the\ longitude\r\n
+comment1.params=other
+comment1.target=double\ distanceTo(LatLng)
+comment1.text=\r\n\ \ \ \ \ \ \ Compute\ the\ distance\ in\ miles\ from\ this\ LatLng\ to\ another\r\n\r\n\ \ \ \ \ \ \ @param\ other\ another\ LatLng\r\n\ \ \ \ \ \ \ @return\ the\ distance\ in\ miles\ from\ this\ LatLng\ to\ other\r\n
+comment2.params=o
+comment2.target=boolean\ equals(java.lang.Object)
+comment2.text=\r\n\ \ \ \ \ \ \ Compare\ another\ LatLng\ with\ this\ for\ equality,\ subject\ to\ the\r\n\ \ \ \ \ \ \ specified\ tolerance.\r\n\r\n\ \ \ \ \ \ \ @param\ o\ the\ other\ LatLng\r\n\ \ \ \ \ \ \ @return\ whether\ the\ two\ lat/lng\ pairs\ should\ be\ considered\ equal\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ Return\ the\ latitude\ and\ longitude\ in\ a\ nicely-formatted\ pair\r\n\r\n\ @return\ the\ latitude\ and\ longitude\ in\ a\ nicely-formatted\ pair\r\n
+numComments=4

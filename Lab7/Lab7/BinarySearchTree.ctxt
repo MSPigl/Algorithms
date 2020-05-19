@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=type
+comment0.target=BinarySearchTree(java.lang.String)
+comment1.params=value
+comment1.target=void\ add(double)
+comment10.params=v
+comment10.target=int\ recursiveRemoveLeaves(BinarySearchTree.Node)
+comment11.params=args
+comment11.target=void\ main(java.lang.String[])
+comment2.params=value\ n
+comment2.target=void\ recursiveAdd(double,\ BinarySearchTree.Node)
+comment3.params=
+comment3.target=int\ height()
+comment4.params=v
+comment4.target=int\ recursiveHeight(BinarySearchTree.Node)
+comment5.params=k
+comment5.target=int\ numDistK(int)
+comment6.params=k\ v
+comment6.target=int\ recursiveNumDistK(int,\ BinarySearchTree.Node)
+comment7.params=s\ e
+comment7.target=int\ numWithinRange(int,\ int)
+comment8.params=s\ e\ v
+comment8.target=int\ recursiveNumWithinRange(int,\ int,\ BinarySearchTree.Node)
+comment9.params=
+comment9.target=int\ removeLeaves()
+numComments=12

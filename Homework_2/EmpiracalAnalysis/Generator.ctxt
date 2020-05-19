@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=array
+comment0.target=void\ printArray(int[])
+comment1.params=size
+comment1.target=int[]\ randomArray(int)
+comment2.params=size
+comment2.target=int[]\ sortedAscendingArray(int)
+comment3.params=size
+comment3.target=int[]\ sortedDescendingArray(int)
+comment4.params=size
+comment4.target=int[]\ nearlySorted(int)
+numComments=5

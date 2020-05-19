@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=cost\ edge
+comment0.target=Cost_Edge(double,\ HighwayEdge)
+comment1.params=e
+comment1.target=int\ compareTo(Cost_Edge)
+numComments=2

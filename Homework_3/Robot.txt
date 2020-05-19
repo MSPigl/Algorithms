@@ -1,0 +1,52 @@
+ALGORITHM RobotCoinCollection( r, c, C[1..n,1..m] )
+   if r == n AND c == m
+      if C[n][m] has a coin
+         return 1
+      else
+         return 0
+   if r == n
+      if C[r][c] has a coin
+         return	1 + RobotCoinCollection( r, c + 1, C[1..n,1..m] )
+      else
+         return	RobotCoinCollection( r, c + 1, C[1..n,1..m] )
+   else if c == m
+      if C[r][c] has a coin
+         return	1 + RobotCoinCollection( r + 1, c, C[1..n,1..m] )
+      else
+         return	RobotCoinCollection( r + 1, c, C[1..n,1..m] )
+   else
+      if C[r][c] has a coin
+	 return 1 + max(RobotCoinCollection( r + 1, c, C[1..n,1..m] ), RobotCoinCollection( r, c + 1, C[1..n,1..m] ))
+      else
+	 return max(RobotCoinCollection( r + 1, c, C[1..n,1..m] ), RobotCoinCollection( r, c + 1, C[1..n,1..m] ))
+_____________________________________________________________________________________________________________________
+
+ALGORITHM RobotCoinCollection( r, c, C[1..n][1..m], sols[1..n][1..m] )
+   if r == n AND c == m
+      if C[n][m] has a coin
+         return 1
+      else
+         return 0
+   if sols[r][c] != -1
+      return sols[r][c]
+   if r == n
+      if C[r][c] has a coin
+         sols[r][c] = 1 + RobotCoinCollection( r, c + 1, C[1..n,1..m], sols[1..n][1..m] )
+	 return sols[r][c]
+      else
+         sols[r][c] = RobotCoinCollection( r, c + 1, C[1..n,1..m], sols[1..n][1..m] )
+	 return sols[r][c]
+   else if c == m
+      if C[r][c] has a coin
+         sols[r][c] = 1 + RobotCoinCollection( r + 1, c, C[1..n,1..m], sols[1..n][1..m] )
+	 return sols[r][c]
+      else
+         sols[r][c] = RobotCoinCollection( r + 1, c, C[1..n,1..m], sols[1..n][1..m] )
+	 return sols[r][c]
+   else
+      if C[r][c] has a coin
+	 sols[r][c] = 1 + max(RobotCoinCollection( r + 1, c, C[1..n,1..m], sols[1..n][1..m] ), RobotCoinCollection( r, c + 1, C[1..n,1..m], sols[1..n][1..m] ))
+	 return sols[r][c]
+      else
+	 sols[r][c] = max(RobotCoinCollection( r + 1, c, C[1..n,1..m], sols[1..n][1..m] ), RobotCoinCollection( r, c + 1, C[1..n,1..m], sols[1..n][1..m] ))
+	 return sols[r][c]

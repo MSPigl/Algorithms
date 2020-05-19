@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=n\ queens\ nextCol
+comment0.target=boolean\ legalMove(int,\ java.util.ArrayList,\ int)
+comment0.text=\r\n\ \ \ \ check\ to\ see\ if\ a\ queen\ placed\ in\ the\ next\ row\ at\ the\ given\ column\r\n\ \ \ \ into\ the\ given\ solution\ so\ far\ will\ be\ a\ legal\ placement\r\n\r\n\ \ \ \ @param\ int\ n\ number\ of\ queens\ in\ the\ ultimate\ solution\r\n\ \ \ \ @param\ queens\ queens\ placed\ so\ far\r\n\ \ \ \ @param\ nextCol\ column\ to\ try\ to\ place\ the\ next\ queen\ in\ the\ next\ row\r\n\r\n\ \ \ \ @return\ whether\ the\ adding\ a\ queen\ at\ nextCol\ in\ the\ next\ row\ of\r\n\ \ \ \ queens\ will\ cause\ a\ violation\r\n
+comment1.params=n\ queens\ nextCol
+comment1.target=java.util.ArrayList\ nqueens(int,\ java.util.ArrayList,\ int)
+comment1.text=\r\n\ \ \ \ method\ to\ find\ an\ N-queens\ solution\r\n\r\n\ \ \ \ @param\ n\ the\ problem\ size\ being\ solved\r\n\ \ \ \ @param\ queens\ ArrayList\ of\ queens\ placed\ so\ far,\ each\ specifies\r\n\ \ \ \ a\ column\ for\ the\ row\ corrsponding\ to\ the\ entry\r\n\ \ \ \ @param\ nextCol\ column\ to\ try\ to\ place\ the\ next\ queen\ in\ the\ next\ row\r\n\r\n\ \ \ \ @return\ an\ ArrayList\ with\ the\ successful\ queens\ placement,\ null\r\n\ \ \ \ if\ no\ solution\ is\ found\ with\ this\ configuration\ and\ move\r\n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment2.text=\r\n\ \ \ \ main\ method\ to\ find\ solutions\ to\ N\ Queens\r\n\r\n\ \ \ \ @param\ args\ args[0]\ is\ the\ number\ of\ queens\r\n
+numComments=3

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=l\ start\ dst\ startPoint\ points\ endPoint\ n
+comment0.target=HighwayEdge(java.lang.String,\ int,\ int,\ LatLng,\ LatLng[],\ LatLng,\ HighwayEdge)
+comment1.params=e
+comment1.target=int\ compareTo(HighwayEdge)
+numComments=2
